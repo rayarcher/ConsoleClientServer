@@ -8,7 +8,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleClient", "ConsoleCli
 		{D8A7AF21-02B9-4859-A3CC-A1697D2485FB} = {D8A7AF21-02B9-4859-A3CC-A1697D2485FB}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleServer", "ConsoleServer\ConsoleServer.csproj", "{D8A7AF21-02B9-4859-A3CC-A1697D2485FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleServer", "ConsoleServer\ConsoleServer.csproj", "{D8A7AF21-02B9-4859-A3CC-A1697D2485FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpClient", "UdpClient\UdpClient.csproj", "{BD194391-3E14-4615-8C99-5ADBE6FB0FD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 		{D8A7AF21-02B9-4859-A3CC-A1697D2485FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8A7AF21-02B9-4859-A3CC-A1697D2485FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8A7AF21-02B9-4859-A3CC-A1697D2485FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD194391-3E14-4615-8C99-5ADBE6FB0FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD194391-3E14-4615-8C99-5ADBE6FB0FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD194391-3E14-4615-8C99-5ADBE6FB0FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD194391-3E14-4615-8C99-5ADBE6FB0FD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
